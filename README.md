@@ -1,0 +1,2 @@
+# software_auto_test_platform
+关于使用AI完成软件自动化测试平台的课下小项目
