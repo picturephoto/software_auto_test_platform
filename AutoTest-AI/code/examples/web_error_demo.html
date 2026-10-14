@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoTest-AI 网页错误测试</title>
+</head>
+<body>
+    <h1>AutoTest-AI 网页自动化测试</h1>
+    <p>页面正常加载，但 JavaScript 存在故意设置的错误。</p>
+
+    <script>
+        console.log("网页加载成功，开始测试 JS");
+
+        // 故意触发 JavaScript 异常
+        setTimeout(function () {
+            nonexistentFunction();
+        }, 500);
+    </script>
+</body>
+</html>
